@@ -52,7 +52,7 @@ class ProductRepository implements RepositoryInterface
      *
      * @param int $id
      * @param array $data
-     * @return array
+     * @return bool
      */
     public function update(int $id, array $data): bool
     {
